@@ -1,6 +1,6 @@
 const ffmpeg = require("fluent-ffmpeg");
-const ffmpegInstaller = require("@ffmpeg-installer/ffmpeg");
-ffmpeg.setFfmpegPath(ffmpegInstaller.path);
+// const ffmpegInstaller = require("@ffmpeg-installer/ffmpeg");
+// ffmpeg.setFfmpegPath(ffmpegInstaller.path);
 const fs = require("fs");
 var filename = "videos/test.mp4";
 
